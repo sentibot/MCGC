@@ -38,3 +38,16 @@ p.byline { font-style: italic; color: #B6B6B6; font-size: 24px; margin-top: 20px
     display: table;
     margin: 0 auto;
 }
+
+.hint{
+    color: orangered;
+    text-decoration: underline;
+}
+
+.hidden{
+    visibility: hidden
+}
+
+.visible{
+    visibility: ""
+}
