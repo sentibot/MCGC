@@ -6,6 +6,6 @@ var start = function(){
 
 var showHint = function(e){
     if(e){
-        e.style.css.visibility = ""
+        
     }
 }
