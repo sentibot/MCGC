@@ -9,7 +9,8 @@ var showHint = function(e){
 }
 
 var showMessage = function(e){
-    e.className = "hidden" ? "visible" : "hidden";
-    var msg = $("#msg1").text() + $("#msg2").text() + $("#msg3").text() + $("#msg4").text() + $("#msg5").text();
+    var msg = "";
+    msg += $("#msg1").text() + $("#msg2").text() + $("#msg3").text() + $("#msg4").text() + $("#msg5").text();
     e.text = msg;
+    e.className = "hidden" ? "visible" : "hidden";
 }
