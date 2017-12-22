@@ -5,7 +5,5 @@ var start = function(){
 }();
 
 var showHint = function(e){
-    if(e){
-        
-    }
+    e.className = "hidden" ? "visible" : "hidden";
 }
