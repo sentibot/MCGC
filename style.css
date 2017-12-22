@@ -5,3 +5,31 @@ p { color: #7a7c7f; font-size: 29px; font-family: "Libre Baskerville", serif; li
 
 
 p.byline { font-style: italic; color: #B6B6B6; font-size: 24px; margin-top: 20px; text-align: center; text-shadow: 0 1px 1px #fff; }
+
+
+
+.myButton {
+	-moz-box-shadow:inset 0px 39px 0px -24px #e67a73;
+	-webkit-box-shadow:inset 0px 39px 0px -24px #e67a73;
+	box-shadow:inset 0px 39px 0px -24px #e67a73;
+	background-color:#e4685d;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	border-radius:20px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	padding:30px 60px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+.myButton:hover {
+	background-color:#eb675e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
