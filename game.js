@@ -1,3 +1,3 @@
-document.ready(function(){
-  alert("js ready!");
-});
+document.onload = function(){
+  alert("js available!")
+}
