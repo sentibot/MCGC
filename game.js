@@ -1,3 +1,1 @@
-document.onload = function(){
-  alert("js available!")
-}
+$(document).ready(function(){ alert("Yes!!!"); }) 
