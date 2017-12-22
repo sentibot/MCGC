@@ -9,8 +9,5 @@ var showHint = function(e){
 }
 
 var showMessage = function(e){
-    var msg = "";
-    msg += $("#msg1").text() + $("#msg2").text() + $("#msg3").text() + $("#msg4").text() + $("#msg5").text();
-    e.text = msg;
     e.className = "hidden" ? "visible" : "hidden";
 }
